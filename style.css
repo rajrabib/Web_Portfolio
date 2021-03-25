@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+p{
+    color: dimgray;
+}
 .name_highlight{
     color: orange;
 }
@@ -21,11 +24,18 @@ h1{
     
 }
 .background-images{
-    background-image: url(images/top-banner.png);
+    background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+.dream-background{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
 section{
     height: 500px;
+    
 }
 .anchor-button{
     text-decoration: none;
