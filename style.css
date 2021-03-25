@@ -8,7 +8,7 @@ h1{
 p{
     color: dimgray;
 }
-.name_highlight{
+.orange-highlight{
     color: orange;
 }
 .half-width{
@@ -31,7 +31,9 @@ p{
 .dream-background{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
+    margin-bottom: 30px;
     background-position: right;
+
 }
 section{
     height: 500px;
