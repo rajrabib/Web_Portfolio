@@ -21,7 +21,6 @@ p{
     width: 450px;
     padding-top: 50px;
     padding-left: 100px;
-    
 }
 .background-images{
     background-image: url("images/top-banner.png");
@@ -33,11 +32,14 @@ p{
     background-repeat: no-repeat;
     margin-bottom: 30px;
     background-position: right;
-
+}
+.experiences-area{
+    background-image:url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
 }
 section{
     height: 500px;
-    
 }
 .anchor-button{
     text-decoration: none;
@@ -46,5 +48,27 @@ section{
     border-radius: 8px;
     font-weight: 700;
     color: white;
-
 }
+.experience-box{
+    box-shadow: 7px 7px 35px gray;
+    background-color: white;
+    border-radius: 5px;
+    height: 70%;
+}
+#experience-full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon,tomato);
+    border-image-slice: 1;
+}
+
+
+#experience-baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+
+
